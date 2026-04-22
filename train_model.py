@@ -31,7 +31,7 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 
-print("Model v3 Accuracy:", accuracy)
+print("Model v2 Accuracy:", accuracy)
 
 # 7. Save model
 joblib.dump(model, "model_v3.pkl")
